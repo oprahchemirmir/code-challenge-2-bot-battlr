@@ -24,8 +24,9 @@ export default function BotsCollection(){
             bots.map((bot)=>{
                 console.log(bot);
                 return(
-                    <div>
+                    <div key={bot.id}>
                        <BotCard
+                       key={bot.id}
                         bot = {bot}
                        /> 
                     </div>

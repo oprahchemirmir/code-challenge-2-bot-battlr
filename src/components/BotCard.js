@@ -14,10 +14,9 @@ const botTypeClasses = {
 
 function BotCard({bot,handleClick, handleDelete}) {
   return (
-    <div className="ui column">
+    <div className="ui column"  key = {bot.id}>
       <div
         className="ui card"
-        key={bot.id}
         // onClick={() =>handleClick(bot.id)}
       >
         <div className="image">
@@ -52,7 +51,7 @@ function BotCard({bot,handleClick, handleDelete}) {
                 className="ui mini red button"
                 onClick={(e) =>
                 { e.stopPropagation()
-                  handleDelete(bot.id)
+                
                 }
                 }>
                 x
