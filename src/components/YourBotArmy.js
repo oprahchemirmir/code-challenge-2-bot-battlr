@@ -1,32 +1,11 @@
+import React from "react";
 
 
-// import React from "react";
-// import BotCard from "./BotCard";
-// import BotsPage from "./BotsPage";
-
-
-// function YourBotArmy({bots, handleClick, handleDelete}) {
-//     console.log(bots);
-//   //your bot army code here...
-//   const displayCards=bots.map(bot=>{
-//     return<BotCard key={bot.id} 
-//     bot={bot}
-//     handleClick={handleClick}
-//     handleDelete={handleDelete}
-//     />})
-
-//   return (
-//     <div className="ui segment inverted olive bot-army">
-//       <div className="ui five column grid">
-//         <div className="row bot-army-row">
-//           {/*...and here...*/}
-//           Your Bot Army
-//           {displayCards}
-
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default YourBotArmy;
+export default function YourBotArmy(bot){
+    console.log(bot);
+    return(
+        <div className="BortArmy">
+    
+        </div>
+    )
+}

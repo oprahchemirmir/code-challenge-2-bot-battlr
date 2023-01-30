@@ -1,13 +1,15 @@
 import React from "react";
 // import BotsPage from "./BotsPage";
 import BotsCollection from "./BotsCollection";
+import YourBotArmy from "./YourBotArmy";
 
 function App() {
   return (
-    <div className="App">
-      {/* <BotsPage /> */}
-      <BotsCollection/>
-    </div>
+    <div>
+     <YourBotArmy/>
+     <BotsCollection/>
+   </div>
+    
   );
 }
 

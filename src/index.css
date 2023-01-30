@@ -7,7 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 #root{
-  background-color: blanchedalmond;
   display: grid;
   grid-template-columns: auto ,auto, auto , auto;
 }
@@ -18,4 +17,25 @@ code {
 #Bots{
   display: grid;
   grid-template-columns: auto , auto ,auto, auto ;
+}
+.bot-army {
+  overflow-x: scroll;
+  min-height: 300px;
+  max-width: 100%;
+}
+.Container{
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.BortArmy{
+  height: 3%;
+  position: sticky;
+  top: 0;
+  z-index: 23333;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
 }
